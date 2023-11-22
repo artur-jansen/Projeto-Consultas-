@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Clinica 7days</title>
+</head>
+<body>
+
+    <header class="cabecalho__container">
+        <h1 class="cabecalho__icon">CM</h1>
+   </header> 
+   
+   <main> 
+    <div class="conteudo__geral-site">
+        <div class="menu__lateral">
+            <a href="index.html" class="rodape__botoes"><img src="img/Calendarioicone.png" alt="icon calendario" class="rodape__img"><p class="rodape__p">Consultas</p></a>
+            <a href="#" class="rodape__botoes"><img src="img/clientes icone.png" alt="icon clientes" class="rodape__img"><p class="rodape__p">Clientes</p></a>
+            <a href="#" class="rodape__botoes"><img src="img/relatorios icone.png" alt="icon relatorios" class="rodape__img"><p class="rodape__p">Relatórios</p></a>
+            <a href="cadastro.html" class="rodape__botoes"><img src="img/maisicone.png" alt="icon menu" class="rodape__img"><p class="rodape__p">Cadastrar Consulta</p></a>
+        </div>
+        <div class="conteudo__medico">
+            <div class="cadastro__container">
+                <h1 class="cadastro__titulo">Cadastrar Consulta</h1>
+                
+                <div class="cadastro__paciente">
+                    <h2 class="cadastro_paciente_titulo">Nome do Paciente:</h2>
+                    <input type="text" placeholder="Insira o nome do paciente" class="cadastro_paciente_campotexto">
+                </div>
+
+                <div class="cadastro__tipo-consulta">
+                    <h2 class="cadastro_paciente_titulo">Tipo de Consulta:</h2>
+
+                    <div class="cadastro__tipo-consulta-opcao">
+                        <div class="cadastro__tipo-consulta-opcao-alinhar">                        
+                            <input type="radio" name="opcao" value="valor1" class="cadastro__tipo-consulta-opcao-check"> Consulta no local
+                        </div>
+                        
+                        <div class="cadastro__tipo-consulta-opcao-alinhar">                        
+                            <input type="radio" name="opcao" value="valor2" class="cadastro__tipo-consulta-opcao-check"> Consulta Remota
+                        </div>
+                    </div>
+                </div> 
+                
+                <div class="cadastro__data">
+                    <h2 class="cadastro_paciente_titulo">Data e Hora da Consulta:</h2>
+                    <input type="datetime-local" placeholder="Insira o nome do paciente" class="cadastro_data_campotexto">
+                </div>
+                <div class="cadastro__observacao">
+                    <h2 class="cadastro_observacao_titulo">Ovservação:</h2>
+                    <input type="text" placeholder="Insira alguma observação para a consulta" class="cadastro_observacao_campotexto">
+                </div>
+                <div class="cadastro__enviar">
+                    <button class="cadastro__enviar-btn"><a href="cadastro.html" class="cadastro__enviar-btn-recarregar">Enviar</a></button>
+                </div>
+            </div>
+        </div>
+     </div>
+    </main>
+
+<footer class="rodape__container">
+    <a href="index.html" class="rodape__botoes"><img src="img/Calendarioicone.png" alt="icon calendario" class="rodape__img"><p class="rodape__p">Consultas</p></a>
+    <a href="#" class="rodape__botoes"><img src="img/clientes icone.png" alt="icon clientes" class="rodape__img"><p class="rodape__p">Clientes</p></a>
+    <a href="#" class="rodape__botoes"><img src="img/relatorios icone.png" alt="icon relatorios" class="rodape__img"><p class="rodape__p">Relatórios</p></a>
+    <a href="cadastro.html" class="rodape__botoes"><img src="img/maisicone.png" alt="icon menu" class="rodape__img"><p class="rodape__p">Cadastrar Consulta</p></a>
+</footer>
+</body>
+</html>

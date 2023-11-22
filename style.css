@@ -1,0 +1,574 @@
+body{
+
+    background-color: rgb(247, 239, 239);
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.cabecalho__container{
+
+    display: flex;
+    background-color: white;
+    padding: 0.5em;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cabecalho__icon{
+
+    font-size: 2.5em;
+    font-weight: 700;
+    color: rgb(0, 0, 255);
+
+}
+
+main{
+
+    padding: 0 1em;
+
+}
+
+.menu__lateral{
+
+    display: none;
+
+}
+
+.perfil__medico{
+
+    display: flex;
+    align-items: center;
+    padding: 2em 0;
+    gap: 1em;
+
+}
+
+.perfil__medico-img{
+
+    width: 15%;
+    border-radius: 48px;
+
+}
+
+.perfil__medico-status{
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+
+}
+
+.perfil__medico-h1{
+
+    font-weight: 700;
+    font-size: 1.5em;
+
+}
+
+.perfil__medico-h3{
+
+    color: #A3A3A3;
+
+}
+
+.dia__consulta{
+
+    padding: 1em 0.5em;
+    font-weight: 700;
+    font-size: 1.2em;
+
+}
+
+.consultas__1{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cards__container{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.consultas__1-card{
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 14px;
+
+}
+
+.consultas__1-card-status{
+
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+}
+
+.consultas__1-card-status-img{
+
+    width: 15%;
+    border-radius: 48px;
+
+}
+
+.consultas__1-card-status-perfil{
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+
+}
+
+.consultas__1-card-status-marcado{
+
+    display: flex;
+    gap: 0.5em;
+
+}
+
+.consultas__1-card-status-marcado-h3{
+
+    color: #A3A3A3;
+    
+
+}
+
+.consultas__1-card-parte1{
+
+    display: flex;
+    padding: 0 0 1em 0;
+
+}
+
+.consultas__1-card-hora{
+
+    padding: 1em 0;
+    border-top: 1px solid #A3A3A3;
+}
+
+.consultas__1-card-buttons{
+
+    display: flex;
+    gap: 1em;
+
+}
+
+.consultas__1-card-btn1{
+
+    background-color: #FFB050;
+    border: transparent;
+    border-radius: 6px;
+    padding: 1.5em;
+    color: white;
+}
+
+.consultas__1-card-btn2{
+
+    background-color: white;
+    border: 1px solid #A3A3A3;
+    border-radius: 6px;
+    padding: 1.5em;
+
+}
+
+.consultas__1-card-button{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.consultas__1-card-btn-individual{
+
+    background-color: #4894FF;
+    color: white;
+    border: transparent;
+    border-radius: 6px;
+    padding: 1.5em 10em;
+
+}
+
+.consultas__2{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+
+.consultas__3{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+
+.consultas__1-card-ultimo{
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin: 1em 0 6em 0;
+    border-radius: 14px;
+
+}
+
+.rodape__container{
+
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em 0;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+
+}
+
+.rodape__botoes{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.3em;
+
+}
+
+.rodape__p{
+
+    color: #A3A3A3;
+
+}
+
+/* PAGINA CADASTRO CONSULTAS  */
+
+.cadastro__container{
+
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.cadastro__titulo{
+
+    font-size: 1.8em;
+    font-weight: 500;
+
+}
+
+.cadastro__paciente{
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+
+}
+
+.cadastro_paciente_campotexto{
+
+    width: 50%;
+
+}
+
+.cadastro__tipo-consulta{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+
+.cadastro__tipo-consulta-opcao{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+
+.cadastro__tipo-consulta-opcao-check{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cadastro__tipo-consulta-opcao-alinhar{
+
+    display: flex;
+    text-decoration: underline;
+
+}
+
+.cadastro__data{
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+
+}
+
+.cadastro_data_campotexto{
+
+    width: 52%;
+
+}
+
+.cadastro__observacao{
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+
+}
+
+.cadastro__enviar-btn{
+
+    width: 30%;
+    height: 40px;
+    margin-top: 2em;
+
+}
+
+.cadastro__enviar-btn:hover{
+
+    background-color: white;
+
+}
+
+.cadastro__enviar-btn-recarregar{
+
+    text-decoration: none;
+    color: #000;
+
+}
+
+@media (min-width: 770px) {
+
+    .perfil__medico-img{
+
+        width: 15%;
+        border-radius: 124px;
+    
+    }
+
+    .icon__chat{
+
+
+        right: 120px;
+
+    }
+
+    .consultas__1-card-button{
+
+        justify-content: left;
+
+    }
+
+    .cadastro_paciente_campotexto{
+
+        width: 30%;
+    
+    }
+
+    .cadastro_data_campotexto{
+
+        width: 30%;
+    
+    }
+
+    .cadastro_observacao_campotexto{
+
+        width: 40%;
+    
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    
+    main{
+
+        padding: 0;
+
+    }
+
+    .conteudo__geral-site{
+
+        display: flex;
+        width: 100%;
+        gap: 2em;
+
+    }
+
+    .cabecalho__container{
+
+        width: auto;
+
+    }
+
+    .menu__lateral{
+
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 10%;
+        background-color: white;
+        
+    }
+
+    .rodape__botoes{
+
+        margin: 4em 0;
+
+    }
+
+    .perfil__medico-img{
+
+        width: 15%;
+        border-radius: 124px;
+    
+    }
+    
+    .perfil__medico-h1 {
+        font-weight: 700;
+        font-size: 2.5em;
+    }
+
+    .perfil__medico-h3 {
+        color: #A3A3A3;
+        font-size: 1.5em;
+    }
+
+    .cards__container{
+
+        flex-direction: row;
+        gap: 1em;
+
+    }
+
+    .consultas__1-card-ultimos{
+
+        margin-bottom: 6em;
+
+    }
+
+    .consultas__1-card{
+
+        width: 30%;
+
+    }
+
+    .consultas__1-card-status-img{
+
+        width: 20%;
+
+    }
+
+    .consultas__1-card h1{
+
+        font-size: 1em;
+
+    }
+
+    .consultas__1-card-ultimo h1{
+
+        font-size: 1em;
+
+    }
+
+    .consultas__1-card-parte1{
+
+       justify-content: space-between;
+    
+    }
+
+    .consultas__1-card-button{
+
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .icon__chat{
+
+        width: 8%;
+
+    }
+
+    .consultas__1-card-btn1, .consultas__1-card-btn2, .consultas__1-card-btn-individual {
+
+        font-size: 0.8em;
+
+
+    }
+
+    .conteudo__medico{
+
+        display: flex;
+        flex-direction: column;
+        padding: 2em 20em;
+
+    }
+
+    .cadastro__container{
+
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    .cadastro_paciente_campotexto{
+
+        width: 100%;
+    
+    }
+
+    .cadastro_data_campotexto{
+
+        width: 100%;
+    
+    }
+
+    .cadastro_observacao_campotexto{
+
+        width: 200%;
+    
+    }
+
+    .cadastro__enviar-btn{
+
+        width: 50%;
+        height: 50px;
+        margin-top: 1em;
+    
+    }
+
+    .rodape__container{
+
+        display: none;
+
+    }
+
+}
